@@ -1,0 +1,19 @@
+$ fm-spawn.sh sc2 <project> --scout --backend hc --harness claude   (origin unreachable on worker-host)
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.GAL0nM
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no watcher has a fresh beacon (last beat: never, grace 300s).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  watcher supervision needs Stop-owned automatic recovery; inspect the hook registration and startup status before ending the turn.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+error: could not resolve origin's default branch for /private/tmp/fmnm.WoSj/code/hw on 'worker-host'
+rc=1
+== record?
+no sc2 record
+== anything created there?
+sc1
+/private/tmp/fmnm.WoSj/code/hw                            7fd1a60 [master]
+/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1 7fd1a60 (detached HEAD)
+== terminals
+"address":"worker-host/t1"

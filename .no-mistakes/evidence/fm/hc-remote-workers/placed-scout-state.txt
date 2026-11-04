@@ -1,0 +1,61 @@
+== meta
+worktree=/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1
+harness=claude
+kind=scout
+backend=hc
+hc_session=fm-hclab-q7
+hc_terminal=worker-host/t1
+hc_machine=worker-host
+hc_firstmate_as=fmhost
+hc_clone=/private/tmp/fmnm.WoSj/code/hw
+hc_launch_file=/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1.launch.s1793822736.2428840.11731.sh
+== worker-host core: hc ls (via exec on worker-host)
+{"error":{"hint":"see `hc --help`","kind":"usage","message":"unexpected argument '--session' found"}}
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(t.get("address",t.get("id")),t.get("cwd"),{k:v for k,v in (t.get("labels") or {}).items()}) for t in (d.get("terminals",d) if isinstance(d,dict) else d)]
+                      ~~~~~~~~~^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib/python3.14/json/__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.14/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+== worktree list there
+/private/tmp/fmnm.WoSj/code/hw                            7fd1a60 [master]
+/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1 7fd1a60 (detached HEAD)
+== launch file leftovers
+.
+..
+sc1
+== screen
+kevin@Kevins-MacBook-Pro sc1 % cd -- '/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1'
+kevin@Kevins-MacBook-Pro sc1 % export COMPACT_ADVISER_DISABLE=1
+kevin@Kevins-MacBook-Pro sc1 % export FM_TASK_ID=sc1
+kevin@Kevins-MacBook-Pro sc1 % . '/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1.launch.s1793822736.2428840.11731.sh'
+Welcome to Claude Code v2.1.318
+..........................................................
+     *                                       █████▓▓░
+                                 *         ███▓░     ░░
+            ░░░░░░                        ███▓░
+    ░░░   ░░░░░░░░░░                      ███▓░
+   ░░░░░░░░░░░░░░░░░░░    *                ██▓░░      ▓
+                                             ░▓▓███▓▓░
+ *                                 ░░░░
+                                 ░░░░░░░░
+                               ░░░░░░░░░░░░░░░░
+       █████████                                        *
+      ██▄█████▄██                        *
+       █████████      *
+.......█ █   █ █..........................................
+ Let's get started.
+== crew-state
+state: unknown · source: pane · harness state unavailable (unknown missing)

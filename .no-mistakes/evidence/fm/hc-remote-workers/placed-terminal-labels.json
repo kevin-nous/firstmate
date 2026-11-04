@@ -1,0 +1,10 @@
+{
+ "address": "worker-host/t1",
+ "cwd": "/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1",
+ "labels": {
+  "firstmate.home": "firstmate-7b50fab2",
+  "firstmate.task": "fm-sc1",
+  "herdr.space": "fm-firstmate-7b50fab2",
+  "herdr.tab": "firstmate-7b50fab2-fm-sc1"
+ }
+}

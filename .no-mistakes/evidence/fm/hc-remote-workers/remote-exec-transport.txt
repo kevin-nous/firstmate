@@ -1,0 +1,19 @@
+--- exit 7 is the programs answer
+
+rc=7
+--- signal-killed command is transport failure
+error: hc exec on machine 'worker-host' did not finish cleanly (timed_out=false truncated=false signal=9)
+rc=255
+--- SIGHUP-killed (signal 1) is transport failure, not exit 1
+error: hc exec on machine 'worker-host' did not finish cleanly (timed_out=false truncated=false signal=1)
+rc=255
+--- timeout is transport failure
+error: hc exec on machine 'worker-host' did not finish cleanly (timed_out=true truncated=false signal=15)
+rc=255
+--- unknown machine
+error: hc exec on machine 'nosuch' did not run: {"error":{"hint":"machines: worker-host","kind":"machine_unknown","message":"unknown machine \"nosuch\""}} 
+rc=255
+--- binary-ish output kept byte for byte
+a	b
+	c
+rc=0

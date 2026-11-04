@@ -1,0 +1,2 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.GAL0nM
+spawned sc1 harness=claude kind=scout window=fm-hclab-q7:worker-host/t1 worktree=/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1
