@@ -1,0 +1,27 @@
+## this core: hc get laptop/t1
+{"address":"laptop/t1","labels":{"firstmate.home":"firstmate-17720003","firstmate.task":"fm-e2e1","herdr.space":"fm-firstmate-17720003","herdr.tab":"firstmate-17720003-fm-e2e1"},"cwd":"/private/tmp/fmlab.0eYLNR/code/.fm-hc/firstmate-17720003/e2e1","status":null}
+## laptop own core: hc ls (run there)
+{"hidden_finished":0,"machines":[{"name":"fmhost","state":"connected"}],"terminals":[{"address":"t1","agent":"zsh","cwd":"/private/tmp/fmlab.0eYLNR/code/.fm-hc/firstmate-17720003/e2e1","state":"live","turn":0}]}
+## worktree there
+/private/tmp/fmlab.0eYLNR/code/hw                             eb248cf [master]
+/private/tmp/fmlab.0eYLNR/code/.fm-hc/firstmate-17720003/e2e1 eb248cf (detached HEAD)
+## local machine has no such path
+ls: cannot access '/private/tmp/fmlab.0eYLNR': No such file or directory
+## crew-state
+state: unknown · source: pane · harness state unavailable (unknown missing)
+## screen (hc read laptop/t1)
+     Auto (match terminal)
+ ❯ ✔ Dark mode
+     Light mode
+     Dark mode (colorblind-friendly)
+     Light mode (colorblind-friendly)
+     Dark mode (ANSI colors only)
+     Light mode (ANSI colors only)
+
+ ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+  1  function greet() {
+  2 -  console.log("Hello, World!");
+  2 +  console.log("Hello, Claude!");
+  3  }
+ ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+  Syntax theme: Monokai Extended (ctrl+t to disable)

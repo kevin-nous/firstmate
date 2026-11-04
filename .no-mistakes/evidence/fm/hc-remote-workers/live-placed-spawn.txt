@@ -1,0 +1,22 @@
+$ bin/fm-spawn.sh e2e1 /tmp/fm-lab.DT0DUT/projects/hw --scout --backend hc --harness claude
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.DT0DUT
+spawned e2e1 harness=claude kind=scout window=fm-hclab-nm8858:laptop/t1 worktree=/private/tmp/fmlab.0eYLNR/code/.fm-hc/firstmate-17720003/e2e1
+exit=0
+--- meta
+window=fm-hclab-nm8858:laptop/t1
+endpoint_task_id=e2e1
+worktree=/private/tmp/fmlab.0eYLNR/code/.fm-hc/firstmate-17720003/e2e1
+project=/tmp/fm-lab.DT0DUT/projects/hw
+harness=claude
+approval_mode=bypass
+kind=scout
+tasktmp=/tmp/fm-e2e1
+model=default
+effort=default
+spawn_gen=s1793811212.376672.27694
+backend=hc
+hc_session=fm-hclab-nm8858
+hc_terminal=laptop/t1
+hc_machine=laptop
+hc_firstmate_as=fmhost
+hc_clone=/private/tmp/fmlab.0eYLNR/code/hw

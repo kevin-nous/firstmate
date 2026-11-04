@@ -1,0 +1,16 @@
+$ bin/fm-teardown.sh e2e1 --force
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  watcher supervision needs Stop-owned automatic recovery; inspect the hook registration and startup status before ending the turn.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+warning: lsof is unavailable; cannot resolve a process-group fallback for hc task e2e1
+teardown e2e1 complete (window fm-hclab-nm8858:laptop/t1, worktree /private/tmp/fmlab.0eYLNR/code/.fm-hc/firstmate-17720003/e2e1)
+Backlog: e2e1 just finished (this home keeps no markdown backlog at /tmp/fm-lab.DT0DUT/data/backlog.md). Update /tmp/fm-lab.DT0DUT/data/backlog.md - move e2e1 to Done, keep Done to the 10 most recent, then re-scan Queued and dispatch only work whose blockers are gone and date is due.
+exit=0
+## after: worktree list there
+/private/tmp/fmlab.0eYLNR/code/hw eb248cf [master]
+## after: laptop core terminals
+[]
+## after: meta
+home-summary.json
+operational-inbox
+terminal-outcomes

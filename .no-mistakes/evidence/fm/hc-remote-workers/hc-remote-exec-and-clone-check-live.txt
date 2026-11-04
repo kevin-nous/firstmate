@@ -1,0 +1,27 @@
+== F1: remote command killed by SIGKILL (hc reports code:null signal:9)
+error: hc exec on machine 'laptop' did not finish cleanly (timed_out=false truncated=false signal=9)
+rc=255
+== F1: remote command killed by SIGHUP (signal 1)
+error: hc exec on machine 'laptop' did not finish cleanly (timed_out=false truncated=false signal=1)
+rc=255
+== F1: remote timeout overrun
+error: hc exec on machine 'laptop' did not finish cleanly (timed_out=true truncated=false signal=15)
+rc=255
+== control: ordinary exit 7
+out
+rc=7
+== T1: symlinked projects path /tmp/fmn313356/code/proj (macOS /tmp -> /private/tmp)
+/private/tmp/fmn313356/code/proj
+rc=0
+== T1 adversarial: symlinked path that exists but holds no clone: /tmp/fmn313356/empty
+error: hc machine 'laptop' has no clone of this project at /tmp/fmn313356/empty (clone it there first, from the same origin)
+rc=1
+== T1 adversarial: symlinked path that does not exist: /tmp/fmn313356/code/nosuch
+error: hc machine 'laptop' has no clone of this project at /tmp/fmn313356/code/nosuch (clone it there first, from the same origin)
+rc=1
+== T1 adversarial: subdirectory of a clone is not the top level: /tmp/fmn313356/code/proj/.git
+error: hc machine 'laptop' has no clone of this project at /tmp/fmn313356/code/proj/.git (clone it there first, from the same origin)
+rc=1
+== unreachable machine name
+error: could not reach hc machine 'nosuchmachine' to check the project clone at /tmp/fmn313356/code/proj
+rc=1

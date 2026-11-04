@@ -1,0 +1,16 @@
+{"error":{"hint":"","kind":"unavailable","message":"the core stopped during the exec"}}
+laptop cleanup rc=5
+> ~/.local/state/herdr-core/fm-hclab-nm8858/core.log 4683896 1793811142 0
+> ~/.local/state/herdr-core/fm-hclab-nm8858/peers.json 4683901 1793811143 98
+> ~/.local/state/herdr-core/fm-hclab-nm8858/terminals.json 4684089 1793811246 42
+lab teardown rc=0
+ls: cannot access '/tmp/fm-lab.DT0DUT': No such file or directory
+core.json
+core.lock
+core.log
+execs
+peers.json
+screens
+terminals.json
+lab teardown rc=0
+default

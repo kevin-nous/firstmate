@@ -1,0 +1,20 @@
+## remote exec exit 7
+out-from-Darwin
+rc=7
+## remote exec killed by SIGKILL
+error: hc exec on machine 'laptop' did not finish cleanly (timed_out=false truncated=false signal=9)
+rc=255
+## remote exec killed by SIGHUP
+error: hc exec on machine 'laptop' did not finish cleanly (timed_out=false truncated=false signal=1)
+rc=255
+## remote exec timeout
+error: hc exec on machine 'laptop' did not finish cleanly (timed_out=true truncated=false signal=15)
+rc=255
+## remote exec unknown machine
+error: hc exec on machine 'nosuch' did not run: {"error":{"hint":"machines: laptop","kind":"machine_unknown","message":"unknown machine \"nosuch\""}} 
+rc=255
+## machine ready laptop
+rc=0
+## machine ready nosuch
+error: hc machine 'nosuch' is not added to hc session 'fm-hclab-nm8858' on this machine (hc machine ls); add it with 'hc machine add' or keep this task local
+rc=1

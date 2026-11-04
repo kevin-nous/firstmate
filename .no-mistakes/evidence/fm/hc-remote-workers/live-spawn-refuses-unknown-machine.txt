@@ -1,0 +1,4 @@
+$ bin/fm-spawn.sh neg1 hw --scout --backend hc --harness claude --hc-machine nosuch
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.DT0DUT
+error: --hc-machine nosuch is not the machine config/hc-machine declares (laptop)
+exit=1
