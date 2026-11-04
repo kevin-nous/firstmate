@@ -37,10 +37,10 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 ..
 sc1
 == screen
-kevin@Kevins-MacBook-Pro sc1 % cd -- '/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1'
-kevin@Kevins-MacBook-Pro sc1 % export COMPACT_ADVISER_DISABLE=1
-kevin@Kevins-MacBook-Pro sc1 % export FM_TASK_ID=sc1
-kevin@Kevins-MacBook-Pro sc1 % . '/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1.launch.s1793822736.2428840.11731.sh'
+<user>@<laptop> sc1 % cd -- '/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1'
+<user>@<laptop> sc1 % export COMPACT_ADVISER_DISABLE=1
+<user>@<laptop> sc1 % export FM_TASK_ID=sc1
+<user>@<laptop> sc1 % . '/private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1.launch.s1793822736.2428840.11731.sh'
 Welcome to Claude Code v2.1.318
 ..........................................................
      *                                       █████▓▓░
