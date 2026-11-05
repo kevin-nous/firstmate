@@ -1,0 +1,44 @@
+## spawn e2e2
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.XBsge1
+spawned e2e2 harness=claude kind=scout window=fm-hclab-n328:worker-host/t2 worktree=/private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e2
+## remove worker-host from lab core (machine unreachable)
+{"removed":"worker-host"}
+{"machines":[]}
+## teardown e2e2 (unreachable)
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.XBsge1
+REFUSED: scout task e2e2 has no report at /tmp/fm-lab.XBsge1/data/e2e2/report.md.
+The report is the work product. Have the crewmate write it, or use --force after explicit discard approval.
+rc=1
+## teardown e2e2 --force (unreachable)
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.XBsge1
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+warning: lsof is unavailable; cannot resolve a process-group fallback for hc task e2e2
+error: hc terminal fm-hclab-n328:worker-host/t2 could not be read, so it was not closed
+error: the hc endpoint fm-hclab-n328:worker-host/t2 for e2e2 could not be closed, so it may still be live.
+error: --force authorizes continuing past a close that failed, so this cleanup proceeds toward removing the task's records; reconcile fm-hclab-n328:worker-host/t2 yourself, because nothing here can still be relied on to name it.
+warning: could not remove /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e2.launch.s1793884955.3028838.14162.sh on hc machine 'worker-host'; remove it there by hand
+REFUSED: cannot reach hc machine 'worker-host' to stop processes left under /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e2 there; preserving the worktree and every record for retry.
+rc=1
+## records kept
+e2e2.inbox
+e2e2.meta
+home-summary.json
+operational-inbox
+terminal-outcomes
+## re-add worker-host
+{"host":"kevins-macbook-pro","id":"ea6f313326b948d81df381cc72aefb4d","name":"worker-host","session":"fm-hclab-n328","target":"kevin@kevins-macbook-pro","temporary":false,"version":"0.1.18","via":false}
+## teardown e2e2 --force (reachable again)
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.XBsge1
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+warning: lsof is unavailable; cannot resolve a process-group fallback for hc task e2e2
+teardown e2e2 complete (window fm-hclab-n328:worker-host/t2, worktree /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e2)
+Backlog: e2e2 just finished (this home keeps no markdown backlog at /tmp/fm-lab.XBsge1/data/backlog.md). Update /tmp/fm-lab.XBsge1/data/backlog.md - move e2e2 to Done, keep Done to the 10 most recent, then re-scan Queued and dispatch only work whose blockers are gone and date is due.
+rc=0
+## after
+total 0
+drwxr-xr-x@ 2 kevin  wheel  64  5 Nov 13:22 .
+drwxr-xr-x@ 3 kevin  wheel  96  5 Nov 13:21 ..
+/private/tmp/fmnm.rMFr/code/proj 3abdc20 [main]
+home-summary.json
+operational-inbox
+terminal-outcomes

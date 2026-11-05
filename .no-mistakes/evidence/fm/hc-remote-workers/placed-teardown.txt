@@ -1,25 +1,22 @@
-== unpushed commit in placed worktree
-eeb01c3 unlanded work
-$ fm-teardown.sh sc1
-fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.GAL0nM
+## teardown e2e1 --force (scratch scout; disowned perl 74723 left in worktree)
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.XBsge1
 WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
-REFUSED: scout task sc1 has no report at /tmp/fm-lab.GAL0nM/data/sc1/report.md.
-The report is the work product. Have the crewmate write it, or use --force after explicit discard approval.
-rc=1
-== kept?
-sc1.inbox
-sc1.meta
-worktree-kept
-$ fm-teardown.sh sc1 --force
-fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.GAL0nM
-WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
-warning: lsof is unavailable; cannot resolve a process-group fallback for hc task sc1
-teardown sc1 complete (window fm-hclab-q7:worker-host/t1, worktree /private/tmp/fmnm.WoSj/code/.fm-hc/firstmate-7b50fab2/sc1)
-Backlog: sc1 just finished (this home keeps no markdown backlog at /tmp/fm-lab.GAL0nM/data/backlog.md). Update /tmp/fm-lab.GAL0nM/data/backlog.md - move sc1 to Done, keep Done to the 10 most recent, then re-scan Queued and dispatch only work whose blockers are gone and date is due.
-rc=0
-== after
-no sc1 record
-.
-..
-/private/tmp/fmnm.WoSj/code/hw 7fd1a60 [master]
-no terminals
+warning: lsof is unavailable; cannot resolve a process-group fallback for hc task e2e1
+teardown: reaped leaked worktree process(es) on hc machine 'worker-host': 74723 
+teardown e2e1 complete (window fm-hclab-n328:worker-host/t1, worktree /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e1)
+Backlog: e2e1 just finished (this home keeps no markdown backlog at /tmp/fm-lab.XBsge1/data/backlog.md). Update /tmp/fm-lab.XBsge1/data/backlog.md - move e2e1 to Done, keep Done to the 10 most recent, then re-scan Queued and dispatch only work whose blockers are gone and date is due.
+teardown rc=0
+## after: processes under worktree there
+perl-gone
+## after: .fm-hc dir + worktree list
+total 0
+drwxr-xr-x@ 2 kevin  wheel  64  5 Nov 13:22 .
+drwxr-xr-x@ 3 kevin  wheel  96  5 Nov 13:21 ..
+/private/tmp/fmnm.rMFr/code/proj 3abdc20 [main]
+## after: terminal
+{"error":{"hint":"see `hc ls --all`","kind":"not_found","message":"no terminal \"t1\""}}
+
+## after: records
+home-summary.json
+operational-inbox
+terminal-outcomes
