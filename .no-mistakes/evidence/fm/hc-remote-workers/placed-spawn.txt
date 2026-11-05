@@ -11,12 +11,12 @@ spawned e2e1 harness=claude kind=scout window=fm-hclab-n328:worker-host/t1 workt
 /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e1 3abdc20 (detached HEAD)
 ## files beside worktree (launch file should be gone)
 total 0
-drwxr-xr-x@ 3 kevin  wheel   96  5 Nov 13:21 .
-drwxr-xr-x@ 3 kevin  wheel   96  5 Nov 13:21 ..
-drwxr-xr-x@ 4 kevin  wheel  128  5 Nov 13:21 e2e1
+drwxr-xr-x@ 3 <user>  wheel   96  5 Nov 13:21 .
+drwxr-xr-x@ 3 <user>  wheel   96  5 Nov 13:21 ..
+drwxr-xr-x@ 4 <user>  wheel  128  5 Nov 13:21 e2e1
 ## processes in worktree there
-zsh       74654 kevin  cwd    DIR   1,16      128 125060468 /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e1
-2.1.318   74678 kevin  cwd    DIR   1,16      128 125060468 /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e1
+zsh       74654 <user>  cwd    DIR   1,16      128 125060468 /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e1
+2.1.318   74678 <user>  cwd    DIR   1,16      128 125060468 /private/tmp/fmnm.rMFr/code/.fm-hc/firstmate-afefc4ea/e2e1
 ## screen
      Auto (match terminal)
  ❯ ✔ Dark mode

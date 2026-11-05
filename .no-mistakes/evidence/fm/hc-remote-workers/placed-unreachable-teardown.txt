@@ -26,7 +26,7 @@ home-summary.json
 operational-inbox
 terminal-outcomes
 ## re-add worker-host
-{"host":"kevins-macbook-pro","id":"ea6f313326b948d81df381cc72aefb4d","name":"worker-host","session":"fm-hclab-n328","target":"kevin@kevins-macbook-pro","temporary":false,"version":"0.1.18","via":false}
+{"host":"<laptop>","id":"ea6f313326b948d81df381cc72aefb4d","name":"worker-host","session":"fm-hclab-n328","target":"<user>@<laptop>","temporary":false,"version":"0.1.18","via":false}
 ## teardown e2e2 --force (reachable again)
 fm-gate-refuse: gate agent lifecycle permitted only against lab home /tmp/fm-lab.XBsge1
 WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
@@ -36,8 +36,8 @@ Backlog: e2e2 just finished (this home keeps no markdown backlog at /tmp/fm-lab.
 rc=0
 ## after
 total 0
-drwxr-xr-x@ 2 kevin  wheel  64  5 Nov 13:22 .
-drwxr-xr-x@ 3 kevin  wheel  96  5 Nov 13:21 ..
+drwxr-xr-x@ 2 <user>  wheel  64  5 Nov 13:22 .
+drwxr-xr-x@ 3 <user>  wheel  96  5 Nov 13:21 ..
 /private/tmp/fmnm.rMFr/code/proj 3abdc20 [main]
 home-summary.json
 operational-inbox
